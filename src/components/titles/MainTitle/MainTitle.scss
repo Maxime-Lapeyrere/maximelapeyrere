@@ -1,0 +1,30 @@
+.title_container{
+    position: relative;
+    display: flex;
+    width: fit-content;
+    height: fit-content; 
+
+    
+
+    h1{
+        justify-content: center;
+        align-items: center;
+        font-size: 200px;
+        width: fit-content;
+        height: 100%;
+        bottom: 0;
+        left: 0;
+        opacity: 20%;
+        text-transform: uppercase;
+    }
+
+    h2{
+        font-size: 60px;
+        position: absolute;
+        width: fit-content;
+        height: 100%;
+        top: 62%;
+        left: 2%;
+        text-transform: uppercase;
+    }
+}

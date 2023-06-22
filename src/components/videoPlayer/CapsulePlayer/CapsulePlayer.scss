@@ -1,0 +1,23 @@
+.capsuleWrapper{
+    position: relative;
+    width: 100%;
+    margin: -12% 0 5%  0;
+
+    .turn{
+        position: absolute;
+        bottom: 5%;
+        right: -45%;
+    }
+
+    
+    .capsulePlayer{
+        width: 100%;
+        
+        .showreel_player{
+        width: 25rem;
+        height: 35rem;
+        object-fit: cover;
+        border-radius: 500px;
+        }
+    }       
+}

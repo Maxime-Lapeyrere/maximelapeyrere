@@ -1,0 +1,50 @@
+.borderLine{
+    background-image: conic-gradient(#111,#2800FFFF, #00ADFFFF, #00CDFFFF, #003DFFFF, #5700FFFF, #9D00FFFF, #DF00FFFF, #CF33E2FF, #C000FFFF, #A500DAFF, #7E00FFFF, #0D00FFFF, #1100FFFF, #00EAFFFF, #14FFF1FF, #14FFD4FF,#14DFFFFF, #7ADAFFFF, #71C4FFFF);
+    position: absolute;
+    display: flex;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+   width: 200%;
+   height: 200vh;
+    animation: rotation 5000ms linear infinite;
+    opacity: 0;
+    transition: opacity 300ms ease-in-out;
+}
+
+.wrapper:hover>.borderLine{
+    transition: opacity 200ms ease-in-out;
+    opacity: 1;
+}
+
+@keyframes rotation {
+    0% {
+        transform: rotate(0turn);
+    }
+    100%{
+        transform: rotate(1turn);
+    }
+}
+
+.wrapper{
+    padding: 5px;
+    position: relative;
+    overflow: hidden;
+    border-radius: 500px;
+    display: flex;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+    width:20vw;
+}
+
+.children_wrapper{
+    position: relative;
+    background: var(--color-primary);
+    padding: 15px;
+    border-radius: 500px;
+    display: flex;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+}

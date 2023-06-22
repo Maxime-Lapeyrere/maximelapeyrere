@@ -1,0 +1,48 @@
+.service_page_container{
+    width: 100%;
+    // padding: 100px;
+
+    .presentation_wrapper{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 64px;
+        text-align: center;
+
+        .img_container{
+            width: 100%;
+            height: 300px;
+           
+            position: relative;
+
+            .img_title{
+                position: absolute;
+                width: 100%;
+                height: 100%;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                background-color: #111111b7 ;
+            }
+
+            .img_banner{
+                object-fit: cover;
+                filter: grayscale(100%);
+                
+                border-radius: 24px;
+
+            }
+        }
+
+    }
+
+    h1{
+        font-size: 64px;
+    }
+    p{
+        font-size:16px;
+
+    }
+}

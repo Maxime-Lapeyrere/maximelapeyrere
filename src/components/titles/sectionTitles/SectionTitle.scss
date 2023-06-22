@@ -1,0 +1,28 @@
+.titleContainer{
+    height: fit-content;
+    width: auto;
+    position: relative;
+    margin-bottom: 5rem;
+   }
+.sectionTitleIdx{
+    
+    .numberIdx{
+        position: absolute;
+        bottom: -50px;
+        font-family: var(--font-bsd);
+        font-weight: 900;
+        font-size: 12.5em;
+        text-transform: uppercase;
+        color: rgba(255, 255, 255, 0.11);
+    }
+    .titleIdx{
+        position: absolute;
+        bottom: 0px;
+        left: 50px;
+        font-family: var(--font-bsd);
+        font-weight: 900;
+        font-size: 3.75em;
+        text-transform: uppercase;
+        width: max-content;
+    }
+}

@@ -1,0 +1,39 @@
+[
+    {
+      "id" : 1,
+      "title" : "Madame Loyal",
+      "img": "/images/projectBanners/madameloyal.png",
+      "link":"/work/video/madameloyal"
+    },
+    {
+      "id" : 2,
+      "title" : "Marvelous Island",
+      "img": "/images/projectBanners/marvelous.png",
+      "link":""
+    },
+    {
+      "id" : 3,
+      "title" : "Quiberon Surf Hostel",
+      "img": "/images/projectBanners/quiberonsurfhostel.png",
+      "link":""
+    },
+    {
+      "id" : 4,
+      "title" : "Ali Express Festival",
+      "img": "/images/projectBanners/aliexpress.png",
+      "link":""
+    },
+    {
+      "id" : 5,
+      "title" : "Moma Surf Shop",
+      "img": "/images/projectBanners/moma.png",
+      "link":""
+    },
+    {
+      "id" : 6,
+      "title" : "Outlines SurfBoard",
+      "img": "/images/projectBanners/outlines.png",
+      "link":""
+    }
+  ]
+  

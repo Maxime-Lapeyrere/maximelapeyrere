@@ -1,0 +1,132 @@
+.footer_section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 64px 0 24px 0;
+
+    h2{ 
+        text-align: center;
+        font-size: 24px;
+    }
+
+
+    .upper_footer{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 0px;
+        gap: 48px;
+
+
+        .upper_footer_cta{
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+            padding: 0px;
+            gap: 64px;
+
+
+            .contact_link{
+                color: white;
+                transition: ease-in 300ms;
+
+                &:hover{
+                    transition: ease-in-out 300ms;
+                    color: aqua;
+                }
+            }
+
+        }
+    }
+
+    .center_footer{
+        width: 100%;
+        height: fit-content;
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+        justify-content: space-evenly;
+        padding: 64px 100px;
+        gap: 120px;
+        
+
+        p{
+            font-family: var(--ff-mt);
+            font-size: 14px;
+        }
+
+        .flex{
+            flex: 1;
+        }
+
+        .center_footer_bloc{
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            padding: 0px;
+            gap: 24px;
+
+            p{
+                text-transform:capitalize;
+            }
+
+            ul{
+                display: flex;
+                flex-direction: column;
+                align-items: flex-start;
+                padding: 0px;
+                gap: 16px;
+            }
+        }
+
+        .contact_footer_bloc{
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            padding: 0px;
+            gap: 15px;
+            text-align: center;
+        }
+
+        .divider{
+            width: 1px;
+            height:160px;
+            background-color: #FFF;
+            opacity: 60%;
+        }
+
+    }
+
+    .lower_footer{
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        align-items: center;
+        padding: 24px 0;
+        text-transform: uppercase;
+        text-align: center;
+
+        .right_lower{
+            width: 250px;
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+            padding: 0px;
+            gap: 24px;
+
+        }
+         .center_lower{
+            width: 250px;
+         }
+    }
+
+}

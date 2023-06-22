@@ -1,0 +1,13 @@
+.simpleBorder{
+    background: linear-gradient(to top, rgb(255, 255, 255), rgba(255, 255, 255, 0.384),rgba(255, 255, 255, 0));
+    padding: 6px;
+    position: relative;
+    border-radius: 500px;
+
+    .wrapper{
+        width: 26.5rem;
+        height: 36.5rem;
+        background-color: var(--color-primary);
+        padding: 20px;
+    }
+}
