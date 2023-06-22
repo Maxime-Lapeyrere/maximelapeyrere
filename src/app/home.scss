@@ -1,7 +1,23 @@
 .herotext{
+    margin: 5rem 0;
+    display: flex;
+    width: 45.75rem;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 4rem;
+
+
     h1{
         color: #FEFFF1;
         font-size: 60px;
         font-family: Big Shoulders Display;
     }
+}
+
+.cta_bloc{
+    display: flex;
+    padding: 0.625rem 2rem;
+    justify-content: space-between;
+    align-items: center;
+    align-self: stretch;
 }

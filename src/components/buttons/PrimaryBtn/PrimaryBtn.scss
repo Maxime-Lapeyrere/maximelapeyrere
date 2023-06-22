@@ -8,9 +8,9 @@
     background-color:white;
     border-radius: 28px;
     width: fit-content;
-    color: #760256;
 
-    .button{
+    .button_primary{
+        
         display: flex;
         flex-direction: row;
         justify-content: center;
@@ -19,9 +19,12 @@
         gap: 8px;
 
         p{
-            text-transform: uppercase;
+            color: #760256;
+            font-size: 2rem;
+            font-family: Big Shoulders Display;
             font-weight: 600;
-            font-size: 32px;
+            line-height: 137.5%;
+            text-transform: uppercase;
         }
     }
 }

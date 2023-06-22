@@ -13,7 +13,7 @@ interface Props {
 const PrimaryBtn = ({text,ico, url}:Props) =>{
   return (
     <Link className='container' href={url} >
-        <button className='button'>
+        <button className='button_primary'>
         <img src={url} alt={ico}/>
         <p className={bsd.className}>{text}</p>
         </button>
