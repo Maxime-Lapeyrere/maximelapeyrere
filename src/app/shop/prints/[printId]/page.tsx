@@ -5,7 +5,7 @@ import LeftArrow from '../../../../../public/svg/left-arrow.svg'
 import RightArrow from '../../../../../public/svg/right-arrow.svg'
 
 
-const page = () => {
+export default function Page() {
 
     const print = {title:"Big Apple Illusion" ,dimensions:"20x30", number:"1/10", price:75, desc:"lorem ipsum sin dolor amet ...", src:"", src2:""}
 
@@ -60,5 +60,3 @@ const page = () => {
     </section>
   )
 }
-
-export default page

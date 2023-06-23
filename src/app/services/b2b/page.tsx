@@ -17,8 +17,8 @@ const B2b = () => {
           <h3>Corporate</h3>
           <p>tbd</p>
           <ul>
-            <li>Interview dirigeants d’entreprises et manager</li>
-            <li>Vidéo de présentation d’entreprise</li>
+            <li>Interview dirigeants d&apos;entreprises et manager</li>
+            <li>Vidéo de présentation d&apos;entreprise</li>
             <li>Captation vidéo et photo évènementielle entreprise<span>salons professionnels/stands, séminaire, live event, Afterwork, ...</span></li>
             <li>Aftermovie de vos évènements</li>
             <li>Communication vidéo pour les réseaux sociaux</li>
@@ -51,7 +51,7 @@ const B2b = () => {
           <p>tbd.</p>
           <ul>
             <li>aftermovie et vidéos de promotion</li>
-            <li>Diffusion live réseaux sociaux et captation multicam sur l’évènement </li>
+            <li>Diffusion live réseaux sociaux et captation multicam sur l&apos;évènement </li>
             <li>Photos des prestations live (Concert, Dj Set)</li>
             <li>Clip musical</li>
             <li>Photo et vidéo sur circuit</li>
@@ -67,8 +67,8 @@ const B2b = () => {
           <h3>Publicité</h3>
           <p>Tbd</p>
           <ul>
-            <li>Promotion d’un produit ou service pour les réseaux sociaux (tik tok, reels, shorts) -<span>format Snack content / Vidéo verticale</span></li>
-            <li>Commercial d’un produit ou service en lumière et décor naturel ou en studio</li>
+            <li>Promotion d&apos;un produit ou service pour les réseaux sociaux (tik tok, reels, shorts) -<span>format Snack content / Vidéo verticale</span></li>
+            <li>Commercial d&apos;un produit ou service en lumière et décor naturel ou en studio</li>
             <li>Photo packshot produit en studio ou lumière naturelle</li>
           </ul>
         </div>
@@ -86,7 +86,7 @@ const B2b = () => {
           <h3>Photographie</h3>
         </div>
         <div className="workbloc">
-          <h4>l'Avant Shooting</h4>
+          <h4>l&apos;Avant Shooting</h4>
           <p>Creative Brief</p>
           <p>Rencontre informelle <span>pour un shooting individuel</span></p>
           <p>Moodboard</p>
@@ -103,12 +103,12 @@ const B2b = () => {
         <div className="workbloc">
           <h4>Post-Production</h4>
           <p>Sélection</p>
-          <p>Correction d'exposition</p>
+          <p>Correction d&apos;exposition</p>
           <p>Retouches mineures</p>
           <p>en option:</p>
           <p>Incrustation et montage photo</p>
           <p>Impression des photos</p>
-          <p>Réalisation d'un livre photo</p>
+          <p>Réalisation d&apos;un livre photo</p>
         </div>
       </div>
       <div className="workflow_col">

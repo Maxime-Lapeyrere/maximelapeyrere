@@ -28,8 +28,8 @@ const ProjectCard = ({title, location, skills, img} : Props) => {
             <h3>{location}</h3>
             </div>
             <div className="lowerThirdCard">
-              {skills.map((skill:string)=>(
-                <Tag>{skill}</Tag>
+              {skills.map((skill:string, key:number)=>(
+                <Tag key={key}>{skill}</Tag>
               ))}
             </div>
         </div>

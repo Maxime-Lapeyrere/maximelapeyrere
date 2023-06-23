@@ -9,7 +9,7 @@ const Footer = () => {
     <section className='footer_section'>
       <div className="upper_footer">
         <h2 className={montserrat.className}>Vous pensez que je suis la personne idéale pour votre projet? <br/>
-        Je serai ravi de vous écouter et d'en savoir plus!
+        Je serai ravi de vous écouter et d&apos;en savoir plus!
         </h2>
         <div className="upper_footer_cta">
           <div className="cta_illustration">
@@ -81,7 +81,7 @@ const Footer = () => {
         <div className="contact_footer_bloc flex">
           <h2>Contact</h2>
           <p>Basé à Paris, à Genève, et en Bretagne. <br/>
-          Disponible et mobile à l'internationnal.
+          Disponible et mobile à l&apos;internationnal.
           </p>
           <p>
             <a href="mailto:hello@maximelapeyrere.com, maxime.lapeyrerepro@gmail.com?subject=Prise de contact depuis le site internet" target='_blank'>maxime.lapeyrerepro@gmail.com</a>

@@ -16,7 +16,7 @@ const B2c = () => {
           <ul>
             <li>séance portrait</li>
             <li>Vidéo Modelling</li>
-            <li>Réalisation de book modèle <span>pour des agences de mannequinat ou d'hôtessariat</span></li>
+            <li>Réalisation de book modèle <span>pour des agences de mannequinat ou d&apos;hôtessariat</span></li>
             <li>Boudoir</li>
           </ul>
           <TertiaryBtn text="Consulter nos tarifs" url="/services/b2c/portrait" />
@@ -31,7 +31,7 @@ const B2c = () => {
         </div>
         <div className="service_presentation">
           <h3>Mariage</h3>
-          <p>Vivez et revivez les moments les plus précieux de votre mariage grâce à des vidéos et aftermovies émouvants. Capturez la demande en fiançailles, immortalisez les souvenirs des mariés avant le grand jour et profitez d'une prestation complète photo et vidéo en collaboration avec une photographe spécialisée dans les mariages.</p>
+          <p>Vivez et revivez les moments les plus précieux de votre mariage grâce à des vidéos et aftermovies émouvants. Capturez la demande en fiançailles, immortalisez les souvenirs des mariés avant le grand jour et profitez d&apos;une prestation complète photo et vidéo en collaboration avec une photographe spécialisée dans les mariages.</p>
           <ul>
             <li>Vidéos et Aftermovie du mariage</li>
             <li>Reportage photo du mariage</li>
@@ -65,7 +65,7 @@ const B2c = () => {
         </div>
         <div className="service_presentation">
           <h3>Immobilier</h3>
-          <p>Valorisez vos biens immobiliers pour les ventes ou les locations saisonnières grâce à des vidéos immersives et des reportages photo de qualité. Offrez une perspective unique grâce à des prises de vue aériennes par drone qui mettent en évidence l'emplacement et les caractéristiques de chaque propriété.</p>
+          <p>Valorisez vos biens immobiliers pour les ventes ou les locations saisonnières grâce à des vidéos immersives et des reportages photo de qualité. Offrez une perspective unique grâce à des prises de vue aériennes par drone qui mettent en évidence l&apos;emplacement et les caractéristiques de chaque propriété.</p>
           <ul>
             <li>Vidéo promotionnelle pour une vente ou une location saisonnière <span>Différentes options disponibles (nocturne, plans aérien, environnement,...)</span></li>
             <li>Reportage Photo</li>

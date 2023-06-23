@@ -34,15 +34,15 @@ const members = [
 const AboutTeam = () => {
   return (
     <section className='about_team_wrapper'>
-        <h2 className={bsid.className}>L'équipe qui m'accompagne</h2>
+        <h2 className={bsid.className}>L&apos;équipe qui m&apos;accompagne</h2>
         <p className={montserrat.className}>
-            Il peut arriver que les projets que vous me confiez nécessitent l’intervention de plusieurs personnes.<br/> 
-            C’est pour cela que je m’accompagne d’une équipe de confrères et consœurs de confiance se démarquant par l’excellence de leur travail
+            Il peut arriver que les projets que vous me confiez nécessitent l&apos;intervention de plusieurs personnes.<br/> 
+            C&apos;est pour cela que je m&apos;accompagne d&apos;une équipe de confrères et consœurs de confiance se démarquant par l&apos;excellence de leur travail
         </p>
 
         <div className="members_display_bloc">
             {members.map((member)=>(
-                <div className="member_card">
+                <div className="member_card" key={member.id}>
                     <Image className='team_profile_pic' src={member.picProfile} alt={`${member.name} profile picture`} width={200} height={200}/>
                     <div className="member_info">
                         <h3 className={montserrat.className}>{member.name}</h3>
