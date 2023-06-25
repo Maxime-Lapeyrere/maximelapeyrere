@@ -1,7 +1,5 @@
 "use client"
 import React, {useState} from 'react'
-import Image from 'next/image'
-import Link from 'next/link'
 import SubPageSelector from '../buttons/SubPageSelector/SubPageSelector'
 import "./categorySelector.scss"
 

@@ -8,29 +8,44 @@
     flex-direction: column;
     align-items: center;
     gap: 9.5625rem;
+    flex:1;
 }
 
-.infoAbout{
+.profilepicdiv{
+    flex: 1;
     display: flex;
-width: 52.4375rem;
+    width: 100%;
+    border: 1px solid green;
+    justify-content: center;
+}
+
+
+.infoAbout{
+display: flex;
+width: 100%;
 padding: 0rem 3rem;
 flex-direction: column;
 align-items: flex-start;
+border: 1px solid green;
+
+
 
 .infoAboutBis{
 
     display: flex;
     align-items: flex-start;
     align-self: stretch;
+    justify-content: space-between;
+    gap: 6rem;
+    
     
     .aboutDetails{
         display: flex;
+        width: fit-content;
         padding: 0.625rem 0rem;
         flex-direction: column;
         align-items: flex-start;
-        gap: 0.625rem;
-        flex: 1 0 0;
-        align-self: stretch;
+        
     }
 }
 }

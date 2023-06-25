@@ -1,5 +1,4 @@
 "use client"
-import Link from 'next/link'
 import React from 'react'
 import "./MainTitle.scss"
 import { bsid, montserrat, bsd } from '@/app/font'

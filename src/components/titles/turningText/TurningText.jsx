@@ -1,5 +1,5 @@
 "use client"
-import React, {useEffect, useRef} from 'react'
+import React from 'react'
 import './TurningText.scss'
 import Image from 'next/image'
 import circleText from '../../../../public/images/circleText.png'

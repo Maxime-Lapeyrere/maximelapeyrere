@@ -2,6 +2,7 @@ import "./AboutSection.scss"
 import React from 'react'
 import Image from "next/image"
 import MainTitle from "@/components/titles/MainTitle/MainTitle"
+import { montserrat } from "@/app/font"
 
 const AboutSection = () => {
   return (
@@ -12,22 +13,22 @@ const AboutSection = () => {
         <div className="aboutInfos">
             <MainTitle h1="Meet Max" h2="Bienvenue dans mon univers" />
             <div className="infoAbout">
-                <div className="infoAboutBis">
+                <div className={`infoAboutBis ${montserrat.className}`}>
 
                 <div className="aboutDetails">
                 <h3>Ma mission</h3>
                 <p>Créateur de contenus numériques indépendant depuis plusieurs années, 
                     je créé et racontes des histoires 
-                    par l’image pour refléter au mieux 
+                    par l&apos;image pour refléter au mieux 
                     votre identité et incarner les messages que vous souhaitez faire passer.
 
                     Mon travail est guidé par la passion, 
-                    la sensibilité et l’exigence du détail. 
+                    la sensibilité et l&apos;exigence du détail. 
                     Mon inspiration vient du voyage 🧳, 
                     des rencontres, et des émotions.
 
-                    Je prête une importance toute particulière à l’Humain et à connaître mon client. Notre histoire commencera donc souvent autour d’un  ☕ 
-                    ou d’une discussion informelle
+                    Je prête une importance toute particulière à l&apos;Humain et à connaître mon client. Notre histoire commencera donc souvent autour d&apos;un  ☕ 
+                    ou d&apos;une discussion informelle
                 </p>
                 </div>
                 <div className="aboutDetails">

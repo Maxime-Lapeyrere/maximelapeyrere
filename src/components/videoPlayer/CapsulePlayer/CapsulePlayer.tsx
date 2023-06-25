@@ -1,6 +1,5 @@
 import React from 'react'
 import './CapsulePlayer.scss'
-import BorderlineAround from '../../borders/BorderLineAround/BorderlineAround'
 import SimpleBorder from '../../borders/simpleBorder/SimpleBorder'
 import TurningText from '../../titles/turningText/TurningText'
 

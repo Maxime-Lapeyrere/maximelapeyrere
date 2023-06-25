@@ -7,8 +7,6 @@ import "./MovieProdBanner.scss"
 
 interface Props {
     title: string
-    // location : string
-    // skills : string[]
     img : string
     link : string
     

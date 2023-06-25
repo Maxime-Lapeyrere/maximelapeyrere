@@ -2,7 +2,7 @@ import React from 'react'
 import Link from 'next/link'
 import Image from 'next/image'
 import "./Footer.scss"
-import { bsid,montserrat, bsd } from '@/app/font'
+import { montserrat, bsd } from '@/app/font'
 
 const Footer = () => {
   return (

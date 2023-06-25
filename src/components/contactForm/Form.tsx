@@ -1,6 +1,6 @@
 import React from 'react'
 import './Form.scss'
-import { bsd, montserrat } from '@/app/font'
+import { montserrat } from '@/app/font'
 
 const Form = () => {
   return (
